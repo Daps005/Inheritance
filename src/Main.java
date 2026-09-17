@@ -9,5 +9,30 @@ public class Main {
 
         System.out.println(p2.name);
 
+        Student s1 = new Student();
+        s1.age = 20;
+        s1.gpa = 4.00;
+        System.out.println(s1.gpa);
+
+        Instructor instructor1 = new Instructor();
+        instructor1.age = 45;
+        instructor1.name = "Bellamy Sanders";
+        instructor1.weight = 188.7;
+        instructor1.height = 75;
+        instructor1.color = "Black";
+        instructor1.instructor_id = 1234567;
+        instructor1.department = "Computer Science";
+        instructor1.officeNumber = "CSB 222";
+
+        System.out.println(instructor1.age);
+        System.out.println(instructor1.name);
+        System.out.println(instructor1.weight);
+        System.out.println(instructor1.height);
+        System.out.println(instructor1.color);
+        System.out.println(instructor1.instructor_id);
+        System.out.println(instructor1.department);
+        System.out.println(instructor1.officeNumber);
+
+
     }
 }
